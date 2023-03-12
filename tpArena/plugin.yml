@@ -1,0 +1,85 @@
+name: tpArenaPlugin
+main: com.krzyskrzys.tpArenaPlugin
+version: 0.1
+
+commands:
+  tpLock:
+    description: 
+    usage: /tpLock [player_name] [-Y]
+
+  tpLock1:
+    description: 
+    usage: /tpLock1 [player_name] [-Y]
+
+  tpLock2:
+   description: 
+    usage: /tpLock2 [player_name] [-Y]
+
+  tpUnlock:
+   description: 
+    usage: /tpLock2 [player_name] [-Y]
+
+
+  tpTest1:
+    description: 
+    usage: 
+
+  tpTest2:
+    description: 
+    usage: 
+
+  tpTest3:
+    description: 
+    usage: 
+
+  tpTest4:
+    description: 
+    usage: 
+
+  tpTest5:
+    description: 
+    usage: 
+
+  tpTest6:
+    description: 
+    usage: 
+
+  tpTest7:
+    description: 
+    usage: 
+
+  tpTest8:
+    description: 
+    usage: 
+
+  tpSave:
+    description: 
+    usage: tpSave areaName 
+    
+  tpLoad:
+    description: 
+    usage: tpLoad areaName
+
+  tpLobby:
+    description: return to main lobby
+    usage: tpLobby
+    
+  tpTeleport:
+    description: teleports a player (test only)
+    usage: tpTeleport x y z
+        
+  tpStartGame:
+    description: starts the game on the server
+    usage: tpStartGame        
+    
+  tpStopGame:
+    description: stops the game on the server
+    usage: tpStopGame            
+    
+  tpJoinGame:
+    description: joins the game
+    usage: tpJoinGame                
+    
+  tpLeaveGame:
+    description: leaves the game
+    usage: tpLeaveGame                    

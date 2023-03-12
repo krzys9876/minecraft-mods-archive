@@ -1,0 +1,20 @@
+name: tpTextPlugin
+main: com.krzyskrzys.tpTextPlugin
+version: 0.1
+
+commands:
+  tpLine:
+    description: rysuje linie w kierunku, w ktorym patrzy gracz
+    usage: /tpLine Szer Wys Material
+    
+  tpPict:
+    description: obrazek z pliku
+    usage: /tpPict plik
+                                                                
+  tpText:
+    description: tekst z blokow
+    usage: /tpPict font tekst material
+
+  tpFontList:
+    description: lista czcionek
+    usage: /tpFontList

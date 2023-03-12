@@ -1,0 +1,17 @@
+name: tpLogoPlugin
+main: com.krzyskrzys.logo.tpLogoPlugin
+version: 0.1
+
+commands:
+  tpLogoInit:
+    description: ustala pozycję żółwia na pozycję gracza
+    usage: /tpLogoInit
+   
+  tpLogoExec:
+    description: uruchamia program złożny z tekstu podanego w parametrach (linie oddzielone średnikiem)
+    usage: /tpLogoExec treść
+                                                               
+  tpLogoProg:
+    description: uruchamia program z pliku
+    usage: /tpLogoProg plik
+

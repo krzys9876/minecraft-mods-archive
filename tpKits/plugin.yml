@@ -1,0 +1,40 @@
+name: tpKitsPlugin
+main: com.krzyskrzys.tpKitsPlugin
+version: 0.1
+
+commands:
+  tpCount:
+    description: zlicza obiekty
+    usage: /tpCount
+    
+  tpCount2:
+    description: zlicza obiekty (2)
+    usage: /tpCount2
+    
+  tpKill:
+    description: zabija stwora
+    usage: /tpKill nazwa
+    
+  tpInvPrint:
+    description: wypisuje inventory
+    usage: /tpInvPrint Armor|Inv [indeks Start] [indeks Koniec]
+    
+  tpInvMove:
+    description: przenosi inventory
+    usage: /tpInvMove indeks1 indeks2
+
+  tpInvEnch:
+    description: ulepsza inventory
+    usage: /tpInvEnch indeks enchantment
+
+  tpKitKrzys:
+    description: dodaje Kit Krzyskrzys
+    usage: /tpKitKrzys
+
+  tpKitNether:
+    description: dodaje Kit do netheru
+    usage: /tpKitNether
+                
+  tpKitMaksior:
+    description: dodaje Kit Maksior2004
+    usage: /tpKitMaksior

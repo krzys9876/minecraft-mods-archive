@@ -1,0 +1,16 @@
+A=4
+IF A > 4 THEN
+	A=5
+ELSE
+	IF A!4 THEN
+		A=6
+	ELSE
+		A=7
+	ENDIF
+ENDIF
+
+POS 1 1 1
+
+B=A
+
+POS 2 2 2

@@ -1,0 +1,12 @@
+name: tpMobsPlugin
+main: com.krzyskrzys.tpMobsPlugin
+version: 0.1
+
+commands:
+  tpMobsStart:
+    description: uruchamia plugin
+    usage: /tpMobsStart
+    
+  tpMobsStop:
+    description: zatrzymuje plugin
+    usage: /tpMobsStop

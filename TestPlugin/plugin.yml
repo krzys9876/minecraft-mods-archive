@@ -1,0 +1,56 @@
+name: TestPlugin
+main: com.krzyskrzys.testPlugin
+version: 0.1
+
+commands:
+  tpCount:
+    description: zlicza obiekty
+    usage: /tpCount
+    
+  tpCount2:
+    description: zlicza obiekty (2)
+    usage: /tpCount2
+    
+  tpSpawn:
+    description: spawnuje jakiegos stwora
+    usage: /tpSpawn Cow|Pig|Dragon [X] [Y] [Z] [nazwa]
+    
+  tpKill:
+    description: zabija stwora
+    usage: /tpKill nazwa
+    
+  tpInvPrint:
+    description: wypisuje inventory
+    usage: /tpInvPrint Armor|Inv [indeks Start] [indeks Koniec]
+    
+  tpInvMove:
+    description: przenosi inventory
+    usage: /tpInvMove indeks1 indeks2
+
+  tpInvEnch:
+    description: ulepsza inventory
+    usage: /tpInvEnch indeks enchantment
+
+  tpKitKrzys:
+    description: dodaje Kit Krzyskrzys
+    usage: /tpKitKrzys
+
+  tpKitNether:
+    description: dodaje Kit do netheru
+    usage: /tpKitNether
+                
+  tpKitMaksior:
+    description: dodaje Kit Maksior2004
+    usage: /tpKitMaksior
+                                
+  tpLine:
+    description: rysuje linie w kierunku, w ktorym patrzy gracz
+    usage: /tpLine Szer Wys Material
+    
+  tpPict:    
+    description: obrazek z pliku
+    usage: /tpPict plik
+                                                                
+  tpText:    
+    description: tekst z blokow
+    usage: /tpPict font tekst material
